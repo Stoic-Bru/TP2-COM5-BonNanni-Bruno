@@ -1,15 +1,21 @@
 nombre : Bon Nanni Bruno
 comision 5
 
-Este es mi proyecto / TP°1 del segundo cuatrimestre de programacion donde vi muchas herramientas como pueden ser git hub, Gemini, node, npm, jsx, css, boostrap
+Este es mi portfolio (tp1) mejorado con rutas y zustand
 
-Para realizar este proyecto me ayude mucho del proyecto realizado anteriormente con el profesor Ismael Chavez ya que nos habia pedido la misma consigna solo que con html puro. Asi que aplicando la teoria anteriormente vista de react, hice el pasaje de ese proyecto con nuevas fuinciones, como los 2 props utilizados con arrays de herramientas y redes, donde se utilizo el useState + el evento onClick para el boton de mostrar mas o menos en la parte del pie de pagina (footer)
+Descripción del proyecto
+Este proyecto es la continuación y evolución del TP1, transformando el portfolio personal en una aplicación web multipágina[cite: 9, 12]. Cuenta con un menú lateral fijo (30%) y un área principal de contenido (70%). Utiliza React Router DOM para la navegación entre vistas sin recargas[cite: 9, 12], componentes reutilizables basados en props[cite: 11, 12], renderizado dinámico mediante arrays y `.map()`[cite: 11, 12], y un sistema de gestión de estado global con Zustand y local con `useState`[cite: 11, 12].
 
-donde mas utilice IA (Gemini) es para el pasaje del css de la pagina de html puro a esta y la adaptacion a pantallas chicas como pueden ser celulares, y con respecto a los commits hoy estuve todo el dia con la compu prendida viendo la teoria y programando al mismo tiempo y no quise perder tiempo realizando commits ya que todo el tiempo estuve siendo productivo respecto al codigo
+Tecnologías utilizadas
+* React
+* Vite
+* React Router DOM
+* Zustand
+* JavaScript
+* CSS3
+* Git / GitHub
 
-Pasos:
-
-Clonar repositorio
-Ubicar la carpeta
-Instalar las dependencias
-Ejecutar
+## Instrucciones para instalar dependencias
+Cloná el repositorio y ejecutá el siguiente comando en la terminal para instalar las dependencias necesarias:
+```bash
+npm install

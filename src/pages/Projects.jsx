@@ -2,13 +2,13 @@ import netflixStack from "../assets/netflix-stack.gif"
 import netflix from "../assets/netflix.avif"
 import WA from "../assets/WA.avif"
 import "../index.css"
-const Experiencias = () => {
+const Projects = () => {
 
 
     return (
 
         <div>
-
+            <h1>Proyectos</h1>
             <section className="proyectos" id="proyectos">
                 <div className="contenedor-card">
                     <div className="card h-100">
@@ -56,4 +56,4 @@ const Experiencias = () => {
     )
 }
 
-export default Experiencias
+export default Projects

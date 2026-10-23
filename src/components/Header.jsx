@@ -1,19 +1,10 @@
-import "../index.css"
-const Header = () => {
+const Header = ({ titulo, subtitulo }) => {
     return (
-        <div>
-
-            <nav className="menu">
-                <ul className="lista">
-                    <li><a className="item-lista" href="#sobreMi">Sobre Mi</a></li>
-                    <li><a className="item-lista" href="#educacion">Educacion</a></li>
-                    <li><a className="item-lista" href="#proyectos">Proyectos</a></li>
-                    <li><a className="item-lista" href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-
-        </div>
-    )
+        <header style={{ marginBottom: '25px', paddingBottom: '15px', borderBottom: '1px solid rgba(128,128,128,0.2)' }}>
+            <h1 style={{ fontSize: '1.8rem' }}>{titulo}</h1>
+            {subtitulo && <p style={{ opacity: 0.8, marginTop: '5px' }}>{subtitulo}</p>}
+        </header>
+    );
 }
 
-export default Header
+export default Header;
